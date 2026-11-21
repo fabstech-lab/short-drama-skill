@@ -1,4 +1,4 @@
-# short-drama — une compétence Claude pour écrire des séries courtes
+# short-drama-script — une compétence Claude pour écrire des séries courtes
 
 🇫🇷 Français · [🇬🇧 English below](#english)
 
@@ -13,11 +13,11 @@ Créée pour la vidéo de [@fabstech](https://www.youtube.com/@fabstech) « Clau
 
 ## Installer
 
-1. Télécharge **[short-drama.zip](https://github.com/fabstech-lab/short-drama-skill/releases/latest/download/short-drama.zip)**.
+1. Télécharge **[short-drama-script.zip](https://github.com/fabstech-lab/short-drama-skill/releases/latest/download/short-drama-script.zip)**.
 2. Dans Claude : **Paramètres → Capacités → Compétences** (Skills), puis **Importer** et choisis le zip. Les noms des menus peuvent varier selon la version.
 3. Dans une nouvelle conversation :
    ```
-   Utilise la compétence short drama. Je veux faire une série courte.
+   Utilise ma compétence short-drama-script. Je veux écrire une série courte.
    ```
 
 ## Générer les épisodes avec Higgsfield
@@ -27,19 +27,19 @@ Créée pour la vidéo de [@fabstech](https://www.youtube.com/@fabstech) « Clau
   ```
   Utilise Higgsfield pour lancer /short-drama. Génère une série courte à partir du script final ci-dessus.
   ```
-  Higgsfield demande la qualité et affiche le prix avant de lancer.
+  Higgsfield fait **un épisode par lancement**. Il demande la qualité (brouillon 480p, 720p ou 1080p) et le mode (pas à pas, ou automatique sans aucune question), et affiche le plan et son prix avant de dépenser quoi que ce soit.
 
 ## Mode direct (sans questions)
 
 Si ta demande donne déjà tout, la compétence écrit directement. Exemple :
 ```
-Avec la compétence short drama, écris 3 épisodes originaux d'une minute, style cinématographique, sur le thème du sommeil.
+Avec la compétence short-drama-script, écris 3 épisodes originaux d'une minute, style cinématographique, sur le thème du sommeil.
 ```
 
 ---
 
 <a id="english"></a>
-# short-drama — a Claude skill for writing short dramas
+# short-drama-script — a Claude skill for writing short dramas
 
 This Claude skill writes **vertical short drama** scripts, ready for [Higgsfield Short Drama](https://higgsfield.ai/short-drama):
 
@@ -50,11 +50,11 @@ This Claude skill writes **vertical short drama** scripts, ready for [Higgsfield
 
 ## Install
 
-1. Download **[short-drama.zip](https://github.com/fabstech-lab/short-drama-skill/releases/latest/download/short-drama.zip)**.
+1. Download **[short-drama-script.zip](https://github.com/fabstech-lab/short-drama-skill/releases/latest/download/short-drama-script.zip)**.
 2. In Claude: **Settings → Capabilities → Skills**, then **Upload** and pick the zip. Menu names may vary by version.
 3. In a new chat:
    ```
-   Use the short drama skill. I want to make a short drama.
+   Use the short-drama-script skill. I want to write a short drama.
    ```
 
 ## Generate the episodes with Higgsfield
@@ -64,7 +64,7 @@ This Claude skill writes **vertical short drama** scripts, ready for [Higgsfield
   ```
   Use Higgsfield to run /short-drama. Generate a short drama based on the final script above.
   ```
-  Higgsfield asks for the quality and shows the price before it starts.
+  Higgsfield makes **one episode per run**. It asks for the quality (480p draft, 720p or 1080p) and the mode (step by step, or full auto with no more questions), and shows the plan and its price before anything is charged.
 
 ## License
 

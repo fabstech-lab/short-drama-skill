@@ -1,5 +1,5 @@
 ---
-name: short-drama
+name: short-drama-script
 description: Writes original vertical short drama (micro-drama) scripts, ready to upload to Higgsfield Short Drama or to generate with the Higgsfield /short-drama command. Guides the user with up to seven short questions, one at a time, each with numbered options (or "choose for me"), then writes a series plan and episode scripts with a hook in the first two seconds, a twist in every scene and a cliffhanger at the end. Also writes several scripts in one go when the request already gives the brief. Use when the user wants to make a short drama, a micro drama, a vertical series, a drama episode or a short drama script.
 ---
 
@@ -49,6 +49,7 @@ Then write the script for episode 1 in full, followed by the other episodes. Ask
 - **A twist in every scene.** Each scene changes what the viewer believes or what the character wants. For one minute, plan three to four scenes.
 - **The last seconds: a cliffhanger.** Cut at the worst possible moment, on a question the next episode answers. Never resolve the main conflict before the last episode.
 - **Show, don't tell.** Short lines, strong actions, faces reacting. About 110 to 140 spoken words per minute at most, and fewer is better.
+- **Adults only, ages in digits.** Every character who speaks or acts on screen is an adult, with their age written in digits in the cast list (for example "MAËLLE, 29"). Never write a child or a teenager, and never leave an age out: Higgsfield needs stated adult ages to make the characters.
 - **Same characters, same look.** Describe each character once in the cast list (age, face, hair, clothes) and keep those details identical in every episode, so they look the same in every scene.
 - **Vertical frame.** Write shots that work in 9:16: close-ups, two people in frame, clear silhouettes.
 
@@ -94,6 +95,6 @@ Repeat for each episode. After the last episode, add one line: "Next episode hoo
 
 Tell the user, in two short lines, how to turn it into episodes:
 - on the website: upload the file at higgsfield.ai/short-drama, pick the style, check the characters and locations, make a low-resolution draft, fix weak scenes, then generate the final;
-- or, if Higgsfield is connected to this chat: ask "Use Higgsfield to run /short-drama. Generate a short drama based on the final script above." Higgsfield asks for the quality and shows the price before it starts.
+- or, if Higgsfield is connected to this chat: ask "Use Higgsfield to run /short-drama. Generate a short drama based on the final script above." Higgsfield makes **one episode per run** (run it again for the next episode, in the same chat). It asks for the quality (480p draft, 720p or 1080p) and the mode (step by step, or full auto, which asks nothing more), and shows the plan and its price before anything is charged.
 
 Do not start any generation yourself unless the user asks for it.
