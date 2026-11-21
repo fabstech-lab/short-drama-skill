@@ -7,6 +7,7 @@ Cette compétence (« skill ») pour Claude écrit des scripts de **séries cour
 - des questions **une par une**, avec des **choix numérotés** (réponds par un chiffre, quelques mots, ou « choisis pour moi ») ;
 - un **choc dans les 2 premières secondes**, un **rebondissement à chaque scène**, un **cliffhanger** à la fin de chaque épisode ;
 - des personnages décrits une fois, pour qu'ils gardent le même visage dans chaque scène ;
+- le texte à l'écran pensé pour la vidéo : les mots importants sont dits à voix haute, ou écrits sur un objet listé avec ses mots exacts (sinon l'IA invente une écriture illisible) ;
 - uniquement des histoires originales : elle reprend des ambiances, jamais des intrigues, et ne cite aucune œuvre, marque ou personne réelle.
 
 Créée pour la vidéo de [@fabstech](https://www.youtube.com/@fabstech) « Claude fait des séries IA pendant que je dors ».
@@ -46,6 +47,7 @@ This Claude skill writes **vertical short drama** scripts, ready for [Higgsfield
 - questions **one at a time**, with **numbered options** (reply with a number, a few words, or "choose for me");
 - a **shock in the first 2 seconds**, a **twist in every scene**, a **cliffhanger** at the end of every episode;
 - characters described once, so they keep the same face in every scene;
+- on-screen text planned for video: key words are spoken aloud, or written on a prop listed with its exact words (otherwise the AI invents unreadable scribbles);
 - original stories only: it takes moods, never plots, and never names existing works, brands or real people.
 
 ## Install

@@ -52,6 +52,12 @@ Then write the script for episode 1 in full, followed by the other episodes. Ask
 - **Adults only, ages in digits.** Every character who speaks or acts on screen is an adult, with their age written in digits in the cast list (for example "MAËLLE, 29"). Never write a child or a teenager, and never leave an age out: Higgsfield needs stated adult ages to make the characters.
 - **Same characters, same look.** Describe each character once in the cast list (age, face, hair, clothes) and keep those details identical in every episode, so they look the same in every scene.
 - **Vertical frame.** Write shots that work in 9:16: close-ups, two people in frame, clear silhouettes.
+- **Text on screen: say it, or put it on a prop.** The video model cannot write readable words by itself: a note, a letter, a page, a screen or a sign shows invented scribbles unless the exact words are already in that object's own reference picture. So when the story turns on written words (a note that says "Breathe with me", a text message, a name on a door):
+  - best: have a character read them aloud, or hear them as the character's inner voice, so the words are in the dialogue;
+  - or: list the object under **Props with text**, with the exact words it carries, word for word, so its picture is made with them;
+  - keep it short (a few words) and never more than one or two such objects an episode;
+  - never write a scene that only works if the viewer reads a long text, and never use on-screen captions or title cards to carry the story.
+- **Times and numbers on objects change only with a new picture.** A clock, a phone or a screen keeps the digits of its reference picture: if the time must visibly change (3:12 at night, 7:40 in the morning), show the change by the light, a line, or list the second state under Props with text.
 
 ## Originality (always)
 
@@ -74,6 +80,9 @@ Style: [style] · Format: vertical 9:16 · [N] episodes of about [length]
 
 ## Locations
 - [LOCATION]: [what it looks like, light, time of day]
+
+## Props with text (only if the story needs readable words)
+- [PROP]: [what it looks like] — exact words: "[the words, word for word]"
 
 ## Episode 1: [title]
 Hook (0–2 s): [the shocking first image or line]
